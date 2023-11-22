@@ -20,7 +20,7 @@ Une fois que le code a terminé l'analyse, il envoie un rapport par email indiqu
 # Fichiers du Projet
 main.py: Ce fichier est le point d'entrée de l'application. Il exécute la fonction principale main, qui coordonne l'ensemble du processus de comparaison.
 
-web_scraper.py: Contient la classe WebScraper, qui permet d'extraire des données à partir de sites web. Elle est utilisée pour récupérer les prix des produits.
+'web_scraper.py' : Contient la classe WebScraper, qui permet d'extraire des données à partir de sites web. Elle est utilisée pour récupérer les prix des produits.
 
 data_manager.py: Le fichier data_manager.py contient la classe DataManager. Elle gère la structuration des données collectées depuis le scraper.
 

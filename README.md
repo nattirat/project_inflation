@@ -14,6 +14,8 @@ Nous avons choisi Selenium pour ce projet. En exécutant le code, les utilisateu
 Après la récupération des données, le script enregistre les informations sur le type de produit, le nom du produit, le magasin, le prix et la date dans le fichier CSV (si le fichier CSV n'existe pas, il le crée automatiquement). Les données stockées dans le fichier CSV est ensuite utilisées pour visualiser le variation des prix des produits sélectionnés entre la recherche précédente et la recherche récente. S'il n'y a aucun changement depuis la dernière recherche, il nous précise que le prix n'a pas varié depuis la dernière fois. Cela s'applique aux modes manuel et automatique.
 # 3. Interface/Dashboard
 Streamlit, qui est une application web en open-source, a été choisie comme plateforme pour notre projet. Veuillez noter que cette interface fonctionne uniquement en mode Automatique et cela n'est pas entièrement opérationnel pour le mode Manuel. Pour lancer Streamlit : (1) En Python : pip install streamlit (2) Dans votre Commandes/Anaconda prompt: cd path/to/your/project/directory > conda activate base > streamlit run Interface.py (3) Par défaut, cela ouvrira un nouvel onglet dans votre navigateur web avec l'adresse http://localhost:8501
+![Alt text]("C:\Users\natti\OneDrive\Pictures\Screenshot 2023-09-30 083700.jpg")
+
 # 4. Rapport par Email
 Une fois que le code a terminé l'analyse, il envoie un rapport par email indiquant le prix des produits dans les deux magasins, lequel des deux magasins est moins cher pour ces produits, combien d'argent l'utilisateur peut économiser et les produits qui ont eu des variations de leurs prix la dernière recherche de l'utilisateur.
 # Fichiers du Projet

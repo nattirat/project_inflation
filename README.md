@@ -18,17 +18,17 @@ Streamlit, qui est une application web en open-source, a été choisie comme pla
 # 4. Rapport par Email
 Une fois que le code a terminé l'analyse, il envoie un rapport par email indiquant le prix des produits dans les deux magasins, lequel des deux magasins est moins cher pour ces produits, combien d'argent l'utilisateur peut économiser et les produits qui ont eu des variations de leurs prix la dernière recherche de l'utilisateur.
 # Fichiers du Projet
-main.py: Ce fichier est le point d'entrée de l'application. Il exécute la fonction principale main, qui coordonne l'ensemble du processus de comparaison.
+**main.py**: Ce fichier est le point d'entrée de l'application. Il exécute la fonction principale main, qui coordonne l'ensemble du processus de comparaison.
 
-'web_scraper.py' : Contient la classe WebScraper, qui permet d'extraire des données à partir de sites web. Elle est utilisée pour récupérer les prix des produits.
+**web_scraper.py** : Contient la classe WebScraper, qui permet d'extraire des données à partir de sites web. Elle est utilisée pour récupérer les prix des produits.
 
-data_manager.py: Le fichier data_manager.py contient la classe DataManager. Elle gère la structuration des données collectées depuis le scraper.
+**data_manager.py** : Le fichier data_manager.py contient la classe DataManager. Elle gère la structuration des données collectées depuis le scraper.
 
-price_data_manager.py: Dans ce fichier, vous trouverez la classe PriceDataManager, responsable de l'enregistrement des prix des produits dans un fichier CSV. Elle permet de suivre les variations de prix au fil du temps.
+**price_data_manager.py** : Dans ce fichier, vous trouverez la classe PriceDataManager, responsable de l'enregistrement des prix des produits dans un fichier CSV. Elle permet de suivre les variations de prix au fil du temps.
 
-email_manager.py: Le fichier email_manager.py contient la classe EmailManager. Elle gère l'envoi d'e-mails contenant les informations de comparaison de prix entre Auchan et Carrefour.
+**email_manager.py** : Le fichier email_manager.py contient la classe EmailManager. Elle gère l'envoi d'e-mails contenant les informations de comparaison de prix entre Auchan et Carrefour.
 
-Interface.py: Le fichier Interface.py Streamlit pour l'interface utilisateur
+**Interface.py** : Le fichier Interface.py Streamlit pour l'interface utilisateur
 
 Autres fichiers: En plus de ces fichiers principaux, d'autres modules et fichiers peuvent être présents pour des fonctionnalités spécifiques ou des utilitaires.
 
